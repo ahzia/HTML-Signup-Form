@@ -93,7 +93,7 @@ input {
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
-    border-color: #575555;
+    border-color: #dad7d7;
     border-width: 0px 1px 1px 1px;
     font-size: 10px;
     text-align: center;
@@ -118,4 +118,16 @@ input {
     height: 15px;
     width: 15px;
     margin-right: 10px;
+}
+
+/*--------------------- Footer ---------------------------*/
+footer p {
+    color: #575555;
+    text-align: center;
+    font-size: 13px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
