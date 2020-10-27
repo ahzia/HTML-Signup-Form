@@ -169,3 +169,15 @@ footer p {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.settings {
+    position: fixed;
+    bottom: 0px;
+    width: 10%;
+    margin-left: 85%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    background-color: #746f6f;
+    border-radius: 2px;
+}
