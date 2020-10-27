@@ -1,9 +1,31 @@
 body{
     background-color: #ECEEF1;
+    font-family: sans-serif;
 }
-.logo{
-    width: 500px;
-}
+
 form{
     background-color:white;    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---------------- LOGO -----------------------------*/
+.logo{
+    height: 120px;
+    margin-bottom: 20px;
+}
+/*---------------------------------------------------*/
+
+/*----------------- Labels --------------------------*/
+label {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-self: center;
 }
