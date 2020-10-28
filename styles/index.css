@@ -47,7 +47,15 @@ header p {
     background-color: #956cce;
     border-radius: 2px;
     font-size: 15px;
+    transition-duration: 0.4s;
 }
+.btn-signin:hover{
+    background-color: white; /* Green */
+    color: #956cce;
+    border:0.25px solid #956cce;
+    cursor: pointer;
+  }
+
 
 /*---------------- LOGO -----------------------------*/
 .logo{
@@ -150,8 +158,14 @@ input {
     background-color: #956cce;
     border-radius: 2px;
     font-size: 15px;
+    transition-duration: 0.4s;
 }
-
+.btn-create:hover{
+        background-color: white; /* Green */
+        color: #956cce;
+        border:0.25px solid #956cce;
+        cursor: pointer;
+      }
 .lock {
     height: 15px;
     width: 15px;
