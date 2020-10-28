@@ -2,7 +2,7 @@
 
 # HTML and CSS Signup form
 
-> This our second project in microverse,a sample signup form  
+> This is our second project in microverse,a sample signup form  
 
 ![screenshot](./app_screenshot.PNG)
 
@@ -10,18 +10,15 @@
 
 - HTML
 - CSS
-- CSS grid and Flex
-- No framework
 
 ## Live Demo
 
 [Live Demo Link](https://ahzia.github.io/HTML-Signup-Form/)
 
-
 ## Getting Started
 
 1. Clone the project 
-  `$ git clone https://github.com/ahzia/HTML-Signup-Form
+  `$ git clone https://github.com/ahzia/HTML-Signup-Form`
 2. Then open index.html in your browser
 
 To get a local copy up and running follow these simple example steps.
