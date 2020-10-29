@@ -2,7 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" href="./styles/index.css" />
-    <script src="https://kit.fontawesome.com/1351aa8402.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/1351aa8402.js"
+      crossorigin="anonymous"
+    ></script>
     <title>HTML CSS SignUp Form</title>
   </head>
   <body>
@@ -12,12 +15,12 @@
     <header>
       <div>
         <p>Already have an Intuit account?</p>
-        <a  href="#">I forgot my User ID or Password</a>
+        <a href="#">I forgot my User ID or Password</a>
       </div>
       <button class="btn-signin"><i class="fas fa-lock"></i> Signin</button>
     </header>
     <main class="main">
-      <img src="img/logo.png" alt="intuit logo" class="logo">
+      <img src="img/logo.png" alt="intuit logo" class="logo" />
       <form action="/#" method="post" class="form-field">
         <h1 class="form-title">Create an Intuit account</h1>
         <p class="form-subtitle">
@@ -26,31 +29,47 @@
         <a href="#">Learn more</a>
         <label>
           Email Address
-          <input type="email" name="email" />
+          <input type="email" name="email" required />
         </label>
         <label>
           Phone(recommended)
           <input type="tel" name="phone" />
           <span class="small-label">
-          Standard call, messaging or data rates may apply.
-        </span>
-        </label><br />
+            Standard call, messaging or data rates may apply.
+          </span></label
+        ><br />
         <label>
           Password
-          <input type="password" name="password" />
-        </label><br />
-        <button class="btn-create"><i class="fas fa-lock"></i> Create Account</button>
-        <p class="terms">By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.</p>
+          <input type="password" name="password" required /> </label
+        ><br />
+        <label>
+          Confirm Password
+          <input type="password" name="Confirmpassword" required /> </label
+        ><br />
+        <button class="btn-create">
+          <i class="fas fa-lock"></i> Create Account
+        </button>
+        <p class="terms">
+          By clicking Create account, you agree to our <a href="#">Terms</a> and
+          have read and acknowledge our <a href="#">Privacy Statement</a>.
+        </p>
       </form>
       <div class="captcha">
-        <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a>and <a href="#">Terms of Use</a>.</p>
+        <p>
+          Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a>and
+          <a href="#">Terms of Use</a>.
+        </p>
       </div>
     </main>
     <footer>
       <p>
-        Legal Privacy Security<br />
-        &copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br/>
-        Terms and conditions, features, support, pricing, and service options subject to change without notice
+        <a href="#">Legal </a> <a href="#"> Privacy </a>
+        <a href="#"> Security</a><br />
+        &copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit
+        Inc.<br />
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice
       </p>
     </footer>
   </body>
