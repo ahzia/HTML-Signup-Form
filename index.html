@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="./styles/index.css" />
     <script src="https://kit.fontawesome.com/1351aa8402.js" crossorigin="anonymous"></script>
-    <title>HTML CSS Form</title>
+    <title>HTML CSS SignUp Form</title>
   </head>
   <body>
     <div class="settings">
@@ -12,7 +12,7 @@
     <header>
       <div>
         <p>Already have an Intuit account?</p>
-        <p class="link-forgot">I forgot my User ID or Password</p>
+        <a  href="#">I forgot my User ID or Password</a>
       </div>
       <button class="btn-signin"><i class="fas fa-lock"></i> Signin</button>
     </header>
@@ -31,16 +31,19 @@
         <label>
           Phone(recommended)
           <input type="tel" name="phone" />
+          <span class="small-label">
+          Standard call, messaging or data rates may apply.
+        </span>
         </label><br />
         <label>
           Password
           <input type="password" name="password" />
         </label><br />
         <button class="btn-create"><i class="fas fa-lock"></i> Create Account</button>
-        <p class="terms">By clicking Create account, you agree to our Terms and have read and acknowledge our Privacy Statement.</p>
+        <p class="terms">By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.</p>
       </form>
       <div class="captcha">
-        <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+        <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a>and <a href="#">Terms of Use</a>.</p>
       </div>
     </main>
     <footer>
