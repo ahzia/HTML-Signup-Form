@@ -166,12 +166,6 @@ input {
         border:0.25px solid #956cce;
         cursor: pointer;
       }
-.lock {
-    height: 15px;
-    width: 15px;
-    margin-right: 10px;
-}
-
 /*--------------------- Footer ---------------------------*/
 footer p {
     color: #575555;
