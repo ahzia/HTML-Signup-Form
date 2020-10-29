@@ -88,19 +88,10 @@ form{
     border-width: 1px;
     border-radius: 2px;
     border-color: #dad7d7;  
-}
-.form-field {
     display: flex;
     flex-direction: column;
     padding: 25px;
     justify-content: center;
-}
-
-.form-subtitle {
-    text-align: center;
-    color: #575555;
-    font-size: 13px;
-    margin-bottom: 1px;
 }
 
 .form-title {
@@ -110,6 +101,13 @@ form{
     font-weight: lighter;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.form-subtitle {
+    text-align: center;
+    color: #575555;
+    font-size: 13px;
+    margin-bottom: 1px;
 }
 
 input {
