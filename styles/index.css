@@ -12,6 +12,7 @@ body {
 }
 
 /* ---------------------- Header ------------------------ */
+
 header {
   display: flex;
   flex-direction: row;
@@ -28,8 +29,8 @@ header div {
 }
 
 header p {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
@@ -39,6 +40,7 @@ a {
   color: #32559c;
   font-size: 12px;
 }
+
 .btn-signin {
   color: white;
   padding-top: 8px;
@@ -61,14 +63,17 @@ a {
 }
 
 /* ---------------- LOGO ----------------------------- */
+
 .logo {
   height: 120px;
   width: 100%;
   margin-bottom: 20px;
 }
+
 /* --------------------------------------------------- */
 
 /* ----------------- Labels -------------------------- */
+
 label {
   color: #575555;
   display: flex;
@@ -77,11 +82,15 @@ label {
   margin-bottom: 10px;
   font-size: 14px;
 }
+
 .small-label {
   font-size: 10px;
 }
+
 /* =-------------------------------------------------- */
+
 /* ----------------- Form ---------------------------- */
+
 form {
   background-color: white;
   border: 1px solid #dad7d7;
@@ -114,10 +123,11 @@ input {
   border: 1px solid #dad7d7;
   border-radius: 2px;
 }
+
 input:focus {
-  box-shadow: 0px 4px 8px 0px rgba(149, 108, 206, 0.2),
-    0px 6px 20px 0px rgba(149, 108, 206, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(149, 108, 206, 0.2),0 6px 20px 0 rgba(149, 108, 206, 0.19);
 }
+
 .terms {
   text-align: center;
   font-size: 12px;
@@ -136,7 +146,7 @@ input:focus {
   margin-right: auto;
   border-style: solid;
   border-color: #dad7d7;
-  border-width: 0px 1px 1px 1px;
+  border-width: 0 1px 1px 1px;
   font-size: 10px;
   text-align: center;
   padding-top: 15px;
@@ -145,7 +155,9 @@ input:focus {
 }
 
 /* -------------------------------------------------------- */
+
 /* ---------------------- Buttons  ------------------------- */
+
 .btn-create {
   color: white;
   padding-top: 15px;
@@ -163,7 +175,9 @@ input:focus {
   border: 0.25px solid #956cce;
   cursor: pointer;
 }
+
 /* --------------------- Footer --------------------------- */
+
 footer p {
   color: #575555;
   text-align: center;
@@ -174,12 +188,14 @@ footer p {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 footer a {
   color: #575555;
 }
+
 .settings {
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   width: 10%;
   margin-left: 85%;
   color: white;
